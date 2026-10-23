@@ -22,7 +22,9 @@ This project is not made, endorsed or supported by Native Instruments. "Native I
 - Clean playback, tested in Traktor
 - Plug and unplug: the driver picks the box up again when you reconnect it
 
-Not done yet: 48 kHz and other sample rates, the box's MIDI and controls, and a lower-latency setting. Timecode vinyl has not been tested.
+Not done yet: 48 kHz and other sample rates, the box's MIDI and controls, and a lower-latency setting. 
+
+Timecode vinyl has not been tested... anyone that does have access to it can you let me know if it works?
 
 ## What you need
 
