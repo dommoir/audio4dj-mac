@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Audio4DJ</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.saintdesign.audio4dj.driver</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Audio4DJ</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.3</string>
+	<key>CFBundleVersion</key>
+	<string>3</string>
+	<key>AudioServerPlugIn_MachServices</key>
+	<array>
+		<string>com.saintdesign.audio4dj.helper</string>
+	</array>
+	<key>CFPlugInFactories</key>
+	<dict>
+		<key>7C3B6C02-6A7E-4E6B-9B1C-5D4E3A2F1A01</key>
+		<string>A4DJ_Create</string>
+	</dict>
+	<key>CFPlugInTypes</key>
+	<dict>
+		<key>443ABAB8-E7B3-491A-B985-BEB9187030DB</key>
+		<array>
+			<string>7C3B6C02-6A7E-4E6B-9B1C-5D4E3A2F1A01</string>
+		</array>
+	</dict>
+</dict>
+</plist>

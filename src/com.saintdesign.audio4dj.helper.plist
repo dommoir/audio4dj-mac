@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.saintdesign.audio4dj.helper</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/local/libexec/a4dj-helper</string>
+	</array>
+	<key>MachServices</key>
+	<dict>
+		<key>com.saintdesign.audio4dj.helper</key>
+		<true/>
+	</dict>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>KeepAlive</key>
+	<true/>
+	<key>ProcessType</key>
+	<string>Interactive</string>
+	<key>StandardErrorPath</key>
+	<string>/var/log/a4dj-helper.log</string>
+	<key>StandardOutPath</key>
+	<string>/var/log/a4dj-helper.log</string>
+</dict>
+</plist>
